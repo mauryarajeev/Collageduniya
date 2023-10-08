@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainBody.css'; // Import your CSS file for styling
+import './MainBody.css'; 
 
 function MainBody() {
   return (
