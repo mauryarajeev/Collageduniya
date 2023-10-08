@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:transparent;
+    color: white;
+  }
+  
+  .header-left img {
+    max-height: 50px;
+  }
+  
+  .header-center .search-bar {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  a:hover{
+    color: aqua;
+  }
+  
+  /* Example FontAwesome icon styles */
+  .notification-icon .fa-bell {
+    font-size: 24px;
+  }
+  
+  .explore-icon .fa-search {
+    font-size: 24px;
+  }
+  
+
+  .explore-icon .ellipse-border {
+    width: 100px; /* Adjust the width of the ellipse */
+    height: 40px; /* Adjust the height of the ellipse */
+    border: 2px solid black; /* Border styling for the ellipse */
+    border-radius: 25px; /* Make it an ellipse by setting border-radius to 50% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .explore-icon .circle-inside {
+    width: 30px; /* Adjust the width of the circle */
+    height: 30px; /* Adjust the height of the circle */
+    background-color: transparent; /* Circle background color */
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    margin-left: 15px;
+    border: 1px solid white;
+
+  }
+  
+  .explore-icon .ellipsis-icon {
+    color: black; /* Icon color */
+    margin: 5px; /* Adjust spacing between icons and border */
+    font-size: 18px; /* Adjust the font size of the ellipsis icons */
+  }
+
+  #paintCircle{
+    width: 17px;
+    height: 17px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: orange;
+  }
+  

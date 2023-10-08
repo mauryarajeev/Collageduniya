@@ -1,0 +1,18 @@
+ /* .AppContainer {
+  text-align: center;
+  background-image: url('./Image/background_image.jpg');
+}  */
+
+
+
+/* Import your background image */
+/* import backgroundImage from './path-to-your-background-image.jpg'; */
+
+/* Apply the background image to the root element */
+.AppContainer {
+  background-image: 'url(./Image/background_image.jpg)';
+  background-size: cover; /* Adjust this property as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This property keeps the image fixed while scrolling */
+  /* Add any other styling you need for your background */
+}

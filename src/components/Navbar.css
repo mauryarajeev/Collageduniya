@@ -1,0 +1,29 @@
+.navbar {
+    background-color:transparent;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50px;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    transition: text-decoration 0.3s;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  

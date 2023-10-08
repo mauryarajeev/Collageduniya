@@ -1,0 +1,83 @@
+.custom-component {
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .heading {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* .search-bar {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  } */
+  
+  .search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 15.5px 22px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .search-button:hover{
+    background-color: aqua;
+    color: black;
+  }
+  
+  .custom-button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  .custom-button:hover{
+    background-color: aqua;
+    color: black;
+  }
+  .underline-text {
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    text-decoration: underline;
+    color: white;
+  }
+  
+
+  .search-bar {
+    width: 70%;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    /* outline: none; */
+  }
+  
+  .search-bar::placeholder {
+    opacity: 0.3; /* Adjust the opacity as needed */
+    font-weight: bold; /* Make the placeholder text bold */
+  }
+  
